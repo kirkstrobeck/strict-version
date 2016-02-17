@@ -1,14 +1,14 @@
-# Node version
+# Strict version
 
 **Strictly enforce node version**
 
 ### Usage
 
 ```bash
-npm install node-version
+npm install strict-version
 ```
 
-Add `require('node-version');` to the start of your project.
+Add `require('strict-version');` to the start of your project.
 
 Make sure you add the [node version](https://docs.npmjs.com/files/package.json#engines) to your `package.json`
 
