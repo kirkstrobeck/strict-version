@@ -1,0 +1,32 @@
+{
+  "name": "strict-version",
+  "version": "0.0.1",
+  "description": "Strictly enforce node version",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard"
+  },
+  "bugs": {
+    "url": "https://github.com/kirkstrobeck/strict-version/issues"
+  },
+  "author": "https://github.com/kirkstrobeck/strict-version/graphs/contributors",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^3.1.2",
+    "lodash": "^4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkstrobeck/strict-version.git"
+  },
+  "homepage": "https://github.com/kirkstrobeck/strict-version",
+  "keywords": [
+    "node",
+    "version",
+    "strict",
+    "ensure",
+    "verify",
+    "confirm"
+  ],
+  "devDependencies": {}
+}
