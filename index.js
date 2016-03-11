@@ -28,7 +28,12 @@ module.exports = (function verifyNodeVersion () {
         reject('Incorrect node version\n' +
           '`package.json` specifies `' + data + '`, ' +
           'you’re currently running `' + process.version + '`.\n' +
-          'Run `nvm install ' + data + ' && nvm use ' + data + '`');
+          'Run the following line\n' +
+          'nvm install ' + data + '\n' +
+          'If you don’t have nvm, install via ' +
+          'https://github.com/creationix/nvm\n' +
+          'To learn more about this version restriction, see ' +
+          'https://github.com/kirkstrobeck/strict-version');
       }
     });
   }

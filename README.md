@@ -2,6 +2,8 @@
 
 **Strictly enforce node version**
 
+[![Circle CI](https://circleci.com/gh/kirkstrobeck/strict-version.svg?style=svg)](https://circleci.com/gh/kirkstrobeck/strict-version)
+
 ### Usage
 
 ```bash
